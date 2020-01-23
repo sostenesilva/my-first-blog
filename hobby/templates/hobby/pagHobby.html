@@ -1,16 +1,28 @@
+{% load static %}
 <html>
     <head>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+        <link rel="stylesheet" href="{% static 'css/hobby.css' %}">
+
+        <!----------------------   fontes   ------------------->
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Cuprum&display=swap" rel="stylesheet">
+
+
         <title>Hobby</title>
     </head>
+
     <body>
-        <div>
-            <h1><a href="/">Blog Django Girls</a></h1>
+        <div class="top_head">
+            <h1 class="title_top"><a id="title_top" href="/">Meu passatempo</a></h1>
         </div>
 
         {% for post in posts %}
-            <div>
-                <h2><a href="">{{ post.title }}</a></h2>
-                <p>publicado em :{{ post.published_date }}</p>
+            <div class="post">
+                <h2><a id="title_post" href="">{{ post.title }}</a></h2>
+                <p id="date">publicado em :{{ post.published_date }}</p>
                 <p>{{ post.text|linebreaksbr }}</p>
             </div>
         {% endfor %}

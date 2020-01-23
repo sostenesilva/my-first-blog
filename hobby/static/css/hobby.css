@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top_head {
+    position: relative;
+    height: 150px;
+    width: 100%;
+    background-color: #4682B4;
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 #title_top {
+    color: #FFFFFF;
+    font-size: 50px;
+}
+
+
+h2 #title_post {
+    color: #4682B4;
+    font-size: 35px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    }
+
+.post{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-family: 'Cuprum', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+#date{
+    font-size: 10px;
+}
