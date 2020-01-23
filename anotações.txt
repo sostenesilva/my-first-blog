@@ -1,0 +1,17 @@
+1. Primeiramente criou-se o projeto
+	django-admin startproject blogv2
+2. Configuração do projeto principal
+	pasta templates
+	página home html
+	inclusão do link no urls
+		from django.conf.urls import url, include
+		from django.views.generic import TemplateView
+		url(r'^$', TemplateView.as_view(template_name='home.html'))
+3. Criação e configuração dos Apps
+	python manage.py startproject about 	(exemplo)
+	Criação da pasta "templates"
+	Definiu-se a função na página view para as paginações retornando a função render e a html
+	Criação de um arquivo de URLS
+	inclusão dos links referentes ao app no settings do projeto principal utilizando o método include
+	
+	
