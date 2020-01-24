@@ -16,15 +16,22 @@
 
     <body>
         <div class="top_head">
-            <h1 class="title_top"><a id="title_top" href="/">Meu passatempo</a></h1>
-        </div>
-
-        {% for post in posts %}
-            <div class="post">
-                <h2><a id="title_post" href="">{{ post.title }}</a></h2>
-                <p id="date">publicado em :{{ post.published_date }}</p>
-                <p>{{ post.text|linebreaksbr }}</p>
+                <h1 class="title_top"><a id="title_top" href="/">Meu passatempo</a></h1>
             </div>
-        {% endfor %}
+        <div class="geral">
+            <div class="box_left"></div>
+            <div class="box_center_right">
+                <div class="box_right"></div>
+                <div class="box_center">
+                    {% for post in posts %}
+                        <div class="post">
+                            <h2><a id="title_post" href="">{{ post.title }}</a></h2>
+                            <p id="date">publicado em :{{ post.published_date }}</p>
+                            <p id="post_text">{{ post.text|linebreaksbr }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+
+        </div>
     </body>
 </html>

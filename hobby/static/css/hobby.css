@@ -2,6 +2,13 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+
 .top_head {
     position: relative;
     height: 150px;
@@ -25,17 +32,49 @@ h2 #title_post {
     font-weight: bold;
     }
 
-.post{
-    position: relative;
-    width: 100%;
-    text-align: center;
-    font-family: 'Cuprum', sans-serif;
-}
-
 p {
     font-size: 15px;
 }
 
+
 #date{
     font-size: 10px;
+}
+
+.geral{
+    width: 1220px;
+    margin: 0 auto;
+    padding:10px;
+}
+
+.box_left{
+    position: relative;
+    float:left;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #000000;
+    border-radius: 50px;
+}
+.box_center_right{
+    position: relative;
+    float: right;
+    width: 900px;
+}
+.box_center{
+    position: relative;
+    float:left;
+    width: 600px;
+}
+.post{
+    text-align: center;
+    font-family: 'Cuprum', sans-serif;
+}
+
+.box_right{
+    position: relative;
+    float:right;
+    width: 300px;
+    height: 500px;
+    border: 5px solid #000000;
+    border-radius: 50px;
 }
