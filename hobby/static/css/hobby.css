@@ -48,9 +48,14 @@ p {
 #post_text{
     text-align: justify;
 }
-.block{
-    background:#fff000;
+#box_left{
+    background: #0000FF;
+    border: 30px solid #000000;
+    
 }
-.container-fluid .row #box_left{
+#box_center{
     background: #fff000;
+}
+#box_right{
+    background: #00FF00;
 }
