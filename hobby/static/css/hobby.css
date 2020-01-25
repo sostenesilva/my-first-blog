@@ -13,18 +13,27 @@ body{
     position: relative;
     height: 150px;
     width: 100%;
-    background-color: #4682B4;
     font-family: 'Kaushan Script', cursive;
     text-align: center;
-    padding: 20px;
+    padding-top: 20px;
+    border: 1px dashed #DCDCDC;
+    border-radius: 50px;
+    margin-top: 5px;
 }
 
 h1 #title_top {
-    color: #FFFFFF;
+    color: #4682B4;
     font-size: 50px;
 }
 
-
+.menu{
+    border: 1px dashed #DCDCDC;
+    border-radius:50px;
+    height: 35px;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+}
 h2 #title_post {
     color: #4682B4;
     font-size: 35px;
@@ -48,14 +57,24 @@ p {
 #post_text{
     text-align: justify;
 }
-#box_left{
-    background: #0000FF;
-    border: 30px solid #000000;
-    
+
+#colunas{
+    padding-top: 10px;
 }
-#box_center{
-    background: #fff000;
+#box_left, #box_right{
+    border: 1px dashed #DCDCDC;
+    border-radius:50px;
+    min-height: 500px;
+    padding: 50px;
+    text-align: center;
+    color: #4682B4;
 }
-#box_right{
-    background: #00FF00;
+#postagem {
+    border-bottom: 1px dashed #DCDCDC;
+    border-top: 1px dashed #DCDCDC;
+    border-radius:50px;
+    margin-bottom: 10px;
+    padding-bottom: 55px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
