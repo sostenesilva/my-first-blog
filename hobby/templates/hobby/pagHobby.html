@@ -1,9 +1,11 @@
 {% load static %}
 <html>
     <head>
+        <!----------------------   bootstrap   ------------------->
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
+        <!----------------------   linkando css   ------------------->
         <link rel="stylesheet" href="{% static 'css/hobby.css' %}">
 
         <!----------------------   fontes   ------------------->
@@ -18,11 +20,13 @@
         <div class="top_head">
                 <h1 class="title_top"><a id="title_top" href="/">Meu passatempo</a></h1>
             </div>
-        <div class="geral">
-            <div class="box_left"></div>
-            <div class="box_center_right">
-                <div class="box_right"></div>
-                <div class="box_center">
+        <div class="container-fluid">
+            <div class="block">aaa</div>
+            <div class="row">
+                <div class="col col-sm-3">
+                    <div class="box_left">box esquerda</div>
+                </div>
+                <div class="col col-sm-6" id="box_center">
                     {% for post in posts %}
                         <div class="post">
                             <h2><a id="title_post" href="">{{ post.title }}</a></h2>
@@ -31,7 +35,10 @@
                         </div>
                     {% endfor %}
                 </div>
-
+                <div class="col col-sm-3">
+                    <div class="right" id="box_right">box direita</div>
+                </div>
+            </div>
         </div>
     </body>
 </html>
