@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="19979cc8-8922-4d0a-a554-7046a5a06d07" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/templates/img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/templates/img2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/templates/pagAbout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogv2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogv2/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogv2/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blogv2/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogv2/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blogv2/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/templates/pagContato.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contato/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobby/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/hobby/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobby/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/hobby/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hobby/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/hobby/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/templates/pagProfissional.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/profissional/views.py" beforeDir="false" />
-    </list>
+    <list default="true" id="19979cc8-8922-4d0a-a554-7046a5a06d07" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +15,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/hobby/templates/principal/pagPrincipal.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+                <state relative-caret-position="335">
+                  <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -118,7 +81,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
@@ -407,17 +370,17 @@
     <entry file="file://$PROJECT_DIR$/media/media/capa/20190414_191901.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/hobby/templates/principal/pagPrincipal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hobby/static/css/principal.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
           <caret line="85" column="8" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hobby/templates/principal/pagPrincipal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
         </state>
       </provider>
     </entry>
