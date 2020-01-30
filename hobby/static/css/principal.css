@@ -1,6 +1,7 @@
 body,h1,h2,h3,h4,h5 {
     font-family: "Raleway", sans-serif
 }
+
 body{
     margin: 0px;
     padding: 0px;
@@ -13,14 +14,17 @@ nav{
     height: 100%;
     width: 300px;
     text-align:center;
-    padding-top: 90px;
+    padding-top: 70px;
 }
 nav a, h3{
     color: #757575;
     font-weight: 400;
 }
+nav h4{
+    font-size:15px;
+}
 nav h3{
-    font-size:20px;
+    font-size:17px;
 }
 
 nav a{
@@ -40,6 +44,10 @@ nav a:visited{
 nav a:active{
     text-decoration:none;
 }
+
+#links-topo{
+    padding-top:100px;
+}
 .nav-button{
     display: block;
     width:100%;
@@ -53,15 +61,15 @@ nav a:active{
 
 /* coluna do conteúdo */
 .container-fluid{
-    margin-left: 300px;
+    margin-left:300px;
     overflow:hidden;
 }
 .postagem-block{
     float:left;
     width:33.33%;
     height:400px;
-    overflow:hidden;
     opacity:0.8;
+    overflow:hidden
 }
 .postagem-block:hover{
     opacity:1;

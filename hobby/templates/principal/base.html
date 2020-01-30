@@ -1,0 +1,35 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <!----------------------   bootstrap   ------------------->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!----------------------   linkando css   ------------------->
+    <link rel="stylesheet" href="{% static 'css/principal.css' %}">
+
+    <!----------------------   fontes   ------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="mysidebar">
+        <div id="texto-topo">
+            <h4>Profile</h4><h3><b>SÓSTENES SILVA</b></h3>
+        </div>
+        <div id="links-topo">
+            <a class="nav-button" href="/">HOME</a>
+            <a class="nav-button" href="http://google.com">GOOGLE</a>
+            <a class="nav-button" href="http://youtube.com">YOUTUBE</a>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
