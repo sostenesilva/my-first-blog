@@ -1,0 +1,47 @@
+{% load static from staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+
+    <!----------------------   bootstrap   ------------------->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+    <!----------------------   linkando css   ------------------->
+    <link rel="stylesheet" href="{% static 'css/principal.css' %}">
+
+    <!----------------------   fontes   ------------------->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+    <nav class="mysidebar">
+        <div id="texto-topo">
+            <h3><b>SILINHAS<br/>HOSANA</b></h3>
+        </div>
+        <br/><br/><br/>
+        <div id="links-topo">
+            <a class="nav-button" href="#">LINK 1</a>
+            <a class="nav-button" href="#">LINK 2</a>
+            <a class="nav-button" href="#">LINK 3</a>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            {% for post in posts %}
+                <div class="col col-sm">
+                    <div class="postagem-block">
+                        <div class="post" id="postagem">
+                            <p class="title-post">{{ post.title }}</p>
+                            <img class="img-post" src="/media/{{ post.foto }}/">
+
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
