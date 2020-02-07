@@ -6,6 +6,7 @@ body{
     margin: 0px;
     padding: 0px;
     line-height: 1.5;
+    background: #9e9e9e;
 }
 /* BLOCO DE NAVEGAÇÃO */
 nav{
@@ -17,19 +18,21 @@ nav{
     padding-top: 70px;
 }
 nav a, h3{
-    color: #757575;
+    
     font-weight: 400;
 }
 nav h4{
     font-size:15px;
 }
 nav h3{
+    color: #757575;
     font-size:17px;
 }
 
 nav a{
+    color: #757575;
     font-weight:bold;
-    font-size:15px;
+    font-size:16px;
     text-decoration:none;
 }
 nav a:hover{
@@ -69,6 +72,7 @@ nav a:active{
     width:33.33%;
     height:400px;
     opacity:0.8;
+    margin-bottom: -6px;
     overflow:hidden
 }
 .postagem-block:hover{
@@ -81,4 +85,26 @@ nav a:active{
 .img-post{
     height:100%;
     width:100%;
+}
+#pag{
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    background: #f1f1f1;
+
+}
+#about{
+    background:#757575;
+    min-height:300px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    color:#fff;
+}
+#contato{
+    background: #f1f1f1;
+    min-height:300px;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 15px;
 }
