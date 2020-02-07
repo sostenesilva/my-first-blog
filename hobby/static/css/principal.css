@@ -67,6 +67,9 @@ nav a:active{
     margin-left:300px;
     overflow:hidden;
 }
+#container-postagens{
+    min-height: 795px;
+}
 .postagem-block{
     float:left;
     width:33.33%;
@@ -125,4 +128,13 @@ nav a:active{
     text-align: center;
     padding-bottom: 40px;
     padding-top: 15px;
+}
+
+#paginator{
+    background: #f1f1f1;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    font-weight: bolder;
+    font-size: 15px;
 }

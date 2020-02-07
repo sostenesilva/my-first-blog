@@ -26,11 +26,25 @@
             <a class="nav-button" href="#contato">CONTATO</a>
         </div>
     </nav>
-    <div class="container-fluid">
+    <div class="container-fluid" id="container-postagens">
         {% block content %}
         {% endblock %}
     </div>
-    <div class="container-fluid" id="pag"><p><<   1   2   3   4   5   >></p></div>
+    <div class="container-fluid" id="paginator">
+        <span>
+            {% if posts.has_previous %}
+                <a href="?page={{ posts.previous_page_number }}"><<</a>
+            {% endif %}
+            <span id="pag-atual">
+                {{ posts.number }} de {{ posts.paginator.num_pages }}
+            </span>
+            
+            {% if posts.has_next %}
+                <a href="?page={{ posts.next_page_number }}">>></a>
+            {% endif %}
+        </span>
+
+    </div>
     <div class="container-fluid" id="about">
         <h4><center><b>About Me</b></center></h4>
         <div class="row" id="about-conteudo">
