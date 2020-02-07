@@ -96,10 +96,28 @@ nav a:active{
 #about{
     background:#757575;
     min-height:300px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 40px;
+    text-align: justify;
+    padding: 15px 0 40px 0;
     color:#fff;
+}
+.img-about{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    opacity: 0.8;
+}
+.img-about:hover{
+    opacity: 1;
+}
+#about-conteudo{
+    margin-top: 25px;
+}
+#about-esq{
+    padding: 0 0 0 50px;
+    text-align: center;
+
 }
 #contato{
     background: #f1f1f1;
