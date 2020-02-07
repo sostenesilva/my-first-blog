@@ -4,12 +4,8 @@
             {% for post in posts %}
                 <div class="col col-sm">
                         <a href="{% url 'post_detail' pk=post.pk %}">
-                        <div class="postagem-block">
-                            <div class="post" id="postagem">
-                                <p class="title-post">{{ post.title }}</p>
-                                <img class="img-post" src="/media/{{ post.foto }}/">
-
-                            </div>
+                        <div id="postagem-block" class="postagem-block">
+                                <img id="img-post" class="img-post" src="/media/{{ post.foto }}/">
                         </div></a>
                 </div>
             {% endfor %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#myDIV {
+  height: 250px;
+  width: auto;
+  padding: 10px;
+  margin: 15px;
+  border: 5px solid red;
+  background-color: lightblue;
+}
+#box{
+    background: #000000;
+    width: 200px;
+}
+</style>
+</head>
+<body onload="myFunction()">
+
+<p>Click the button to get the height and width of div, including padding and border (using both offsetHeight and offsetWidth).</p>
+<div id="box">aaaaaaaa</div>
+<div id="myDIV">
+  <b>Information about this div:</b><br>
+  Height: 250px<br>
+  Width: 400px<br>
+  padding: 10px<br>
+  margin: 15px<br>
+  border: 5px<br>
+  <p id="demo"></p>
+</div>
+
+<script>
+function myFunction() {
+  var elmnt = document.getElementById("myDIV");
+  var txt = "Height including padding and border: " + elmnt.offsetHeight + "px<br>";
+  txt += "Width including padding and border: " + elmnt.offsetWidth + "px";
+  document.getElementById("demo").innerHTML = txt;
+  var largura = document.getElementById("box");
+  largura.style.width += elmnt.offsetWidth + "px";
+}
+</script>
+
+</body>
+</html>
