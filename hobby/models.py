@@ -8,7 +8,7 @@ class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     foto = models.FileField(upload_to="media/capa/", blank=True, null=True)
-    video = models.CharField(max_length=50, blank=True, null=True)
+    #video = models.CharField(max_length=50, blank=True, null=True)
     letra = models.TextField()
     cifra = models.TextField(max_length=2000, default='Cifra indisponível até o momento.')
     creditos = models.TextField(max_length=2000, default="Créditos:")
