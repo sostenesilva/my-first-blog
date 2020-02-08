@@ -9,8 +9,10 @@
         </div>
         <div class="col-5 col-sm-5">
             <iframe id="video-post" width="400" height="225" src="https://www.youtube.com/embed/{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p id="creditos-post">Créditos:<br>Composição: Sóstenes Silva<br>Áudio: Eder Silas<br>Vídeo: Eberton Henrique</p>
+            <img class="iconredes-post" src="/static/iconwhats.png" alt="whatsapp"><img class="iconredes-post" src="/static/iconinsta.png" alt="instagram"><img class="iconredes-post" src="/static/iconface.png" alt="facebook">
         </div>
     </div>
-<p class="autoria-post">{{ post.author }}, {{ post.published_date }}.</p>
+<p id="autoria-post">{{ post.author }}, {{ post.published_date }}.</p>
 </div>
 {% endblock %}
