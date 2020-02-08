@@ -1,5 +1,16 @@
 {% extends 'principal/base.html' %}
 
 {% block post-details %}
-<div class="container-fluid" id="post_details">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</div>
+<div class="container-fluid" id="post_details">
+    <h3 id="title-post">{{ post.title }}</h3>
+    <div class="row">
+        <div class="col-7 col-sm-7">
+            <p id="text-post">{{ post.text|linebreaksbr }}</p>
+        </div>
+        <div class="col-5 col-sm-5">
+            <iframe id="video-post" width="400" height="225" src="https://www.youtube.com/embed/{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+<p class="autoria-post">{{ post.author }}, {{ post.published_date }}.</p>
+</div>
 {% endblock %}
