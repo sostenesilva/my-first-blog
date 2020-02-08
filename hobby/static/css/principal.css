@@ -74,7 +74,7 @@ nav a:active{
     float:left;
     width:33.33%;
     height:400px;
-    opacity:0.8;
+    opacity:0.7;
     margin-bottom: -6px;
     overflow:hidden
 }
@@ -141,7 +141,7 @@ nav a:active{
 
 #post_details{
     margin-left: 300px;
-    padding: 40px 80px 50px 50px;
+    padding: 40px 80px 0px 50px;
     background: #f1f1f1;
     min-height: 658px;
 }
@@ -153,16 +153,21 @@ nav a:active{
 }
 #title-post{
     font-weight: 300;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     text-align: center;
     margin-top: 0;
 }
-#text-post{
+#letra-post{
     line-height: 1.3;
     font-size: 13px;
     padding-right: 100px
 }
-
+#cifra-post{
+    line-height: 1.3;
+    font-size: 10px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+}
 #autoria-post{
     font-size: 10px;
     margin-top: 50px;
@@ -180,4 +185,10 @@ nav a:active{
     padding: 10px;
     float: right;
     margin-top: 0px;
+    filter: contrast(0%);
+    opacity: 0.7;
+}
+.iconredes-post:hover{
+    filter: contrast(100%);
+    opacity: 1;
 }
