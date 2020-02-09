@@ -16,31 +16,37 @@
     <title>Home</title>
 </head>
 <body>
-    <nav class="mysidebar">
-        <div id="texto-topo">
-            <h4 id="prof">Profile</h4><h3><b>SÓSTENES SILVA</b></h3>
+    <div class="container-fluid" id="geral">
+        <div class="row">
+            <div class="col-12 col-sm-2" id="navega">
+                <nav id="mysidebar">
+                    <div id="texto-topo">
+                        <h4 id="prof">Profile</h4><h3><b>SÓSTENES SILVA</b></h3>
+                    </div>
+                    <div id="links-topo">
+                        <a class="nav-button" href="/">HOME</a>
+                        <a class="nav-button" href="#about">ABOUT</a>
+                        <a class="nav-button" href="#contato">CONTATO</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-12 col-sm-10" id="content">
+                {% block post-home %}
+                {% endblock %}
+        
+                {% block post-details %}
+                {% endblock %}
+        
+                {% block about %}
+                {% endblock %}
+        
+                {% block contato %}
+                {% endblock %}
+        
+                {% block info %}
+                {% endblock %}
+            </div>
         </div>
-        <div id="links-topo">
-            <a class="nav-button" href="/">HOME</a>
-            <a class="nav-button" href="#about">ABOUT</a>
-            <a class="nav-button" href="#contato">CONTATO</a>
-        </div>
-    </nav>
-    
-        {% block post-home %}
-        {% endblock %}
-
-        {% block post-details %}
-        {% endblock %}
-
-        {% block about %}
-        {% endblock %}
-
-        {% block contato %}
-        {% endblock %}
-
-        {% block info %}
-        {% endblock %}
-
+    </div>
 </body>
 </html>
