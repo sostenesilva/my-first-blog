@@ -2,15 +2,13 @@ body,h1,h2,h3,h4,h5 {
     font-family: "Raleway", sans-serif
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-    line-height: 1.5;
-    background: #9e9e9e;
 }
 .container-fluid{
     padding: 0;
     margin: 0;
+}
+.row{
+    margin-right: 15px ;
 }
 /* BLOCO DE NAVEGAÇÃO */
 #navega{
