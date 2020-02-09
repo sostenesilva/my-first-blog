@@ -17,7 +17,7 @@ body{
     z-index: 3;
 }
 #mysidebar {
-    position: fixed;
+    
     background-color: #fff;
     height: 100%;
     width: inherit;
