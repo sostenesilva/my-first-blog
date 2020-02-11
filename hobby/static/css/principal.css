@@ -12,21 +12,20 @@ body{
     padding: 0;
     margin: 0;
 }
-
+.row{
+    margin-right: 0;
+}
 #navega{
     z-index: 3;
     padding: 0;
 }
-.col-md-2 #mysidebar {
-    position: fixed;
+#mysidebar {
+    position: relative;
     background: #fff;
     height: 100%;
     width: 100%;
     text-align:center;
     padding-top: 70px;
-}
-.col-12 #mysidebar{
-    position: relative;
 }
 
 #mysidebar a, h3{    
@@ -75,7 +74,7 @@ body{
 #content-post{
     text-align: center;
     background-color: #f1f1f1;
-    padding-left: 1%;
+    padding-left: 5%;
 }
 .postagem-block{
     float:left;
