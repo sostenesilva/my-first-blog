@@ -79,7 +79,6 @@ body{
 
 .postagem-block:hover{
     opacity: 1;
-    transition: opacity 2s;
 }
 
 .img-post{
