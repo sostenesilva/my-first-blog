@@ -1,9 +1,9 @@
 {% extends 'principal/base.html' %}
 
 {% block post-home %}
-        <div class="row">
+        <div class="row" id="content-post">
          {% for post in posts %}
-                <div class="col col-sm">
+                <div class="col col-md">
                         <a href="{% url 'post_detail' pk=post.pk %}">
                         <div class="postagem-block">
                                 <img id="img-post" class="img-post" src="/media/{{ post.foto }}/">
@@ -34,10 +34,10 @@
 {% block about %}
     <div class="row" id="about">
         <h4><center><b>About Me</b></center></h4>
-        <div class="col-sm-3" id="about-esq">
+        <div class="col-md-3" id="about-esq">
             <img class="img-about" id="img-about" src="/static/imgabout.jpg" alt="foto de perfil do autor" width="200px" height="200px">
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-9">
             <p>Descrição breve sobre quem sou eu, como entrar em contato, quem me inspira, etc</p>
             <p>Descrição breve sobre quem sou eu, como entrar em contato, quem me inspira, etc</p>
             <p>Descrição breve sobre quem sou eu, como entrar em contato, quem me inspira, etc</p>
@@ -71,15 +71,15 @@
 
 {% block info %}
 <div class="row" id="info">
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <h4>INFO</h4>
         <p>informações pertinentes ao site, autor, conteúdo, etc.</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <h4>VIEWS</h4>
         <p>informações estatísticas do site, postagens, mensagens, conteúdo, etc.</p>
     </div>
-    <div class="col-sm-4">
+    <div class="col-md-4">
         <h4>CREDITS</h4>
         <p>reservado aos créditos, agradecimentos e considerações finais do autor.</p>
     </div>
