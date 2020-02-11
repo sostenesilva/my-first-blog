@@ -78,6 +78,7 @@ body{
 }
 
 .postagem-block:hover{
+    transition: linear 4s;
     opacity: 1;
 }
 
