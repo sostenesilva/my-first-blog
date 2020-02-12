@@ -15,17 +15,56 @@ body{
 .row{
     margin-right: 0;
 }
+#coluna-conteudo{
+    padding: 0 0 0 1%;
+    margin: 0;
+}
 #navega{
     z-index: 3;
     padding: 0;
 }
-#mysidebar {
-    position: relative;
-    background: #fff;
-    height: 100%;
-    width: 100%;
-    text-align:center;
-    padding-top: 70px;
+@media screen and (max-width: 576px){
+    #mysidebar{
+        position: relative;
+        background: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    #links-topo{
+        padding-top: 0;
+        text-align: center;
+    }
+    .nav-button{
+        display: inline-flex;
+        height:30px;
+        width: 32%;
+        margin:0px;
+        line-height: 30px;
+        text-decoration:none;
+    }
+}
+
+@media screen and (min-width: 576px){
+    #mysidebar {
+        position: relative;
+        background: #fff;
+        height: 100%;
+        width: 100%;
+        text-align:center;
+        padding-top: 70px;
+    }
+    #links-topo{
+        padding-top: 50%;
+    }
+    .nav-button{
+        display: block;
+        width:100%;
+        height:30px;
+        margin:0px;
+        float:none;
+        line-height: 30px;
+        text-decoration:none;
+    }
 }
 
 #mysidebar a, h3{    
@@ -36,7 +75,6 @@ body{
     font-size:15px;
 }
 #mysidebar h3{
-    ;
     font-size:17px;
 }
 #mysidebar a{
@@ -58,23 +96,14 @@ body{
     color: none;
 }
 
-#links-topo{
-    padding-top:100px;
-}
-.nav-button{
-    display: block;
-    width:100%;
-    height:30px;
-    margin:0px;
-    float:none;
-    line-height: 30px;
-    text-decoration:none;
-}
+
 
 #content-post{
     text-align: center;
     background-color: #f1f1f1;
     padding-left: 5%;
+    margin-right: 0;
+    padding-right: 0;
 }
 .postagem-block{
     float:left;
