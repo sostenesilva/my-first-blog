@@ -3,8 +3,8 @@ body,h1,h2,h3,h4,h5 {
 }
 
 body{
-    margin: 0px;
-    padding: 0px;
+    margin:0;
+    padding: 0 0 0 0%;
     line-height: 1.5;
     background: #ffffff;
 }
@@ -13,7 +13,8 @@ body{
     margin: 0;
 }
 .row{
-    margin-right: 0;
+    margin: 0;
+    padding:0;
 }
 #coluna-conteudo{
     padding: 0 0 0 1%;
@@ -23,22 +24,22 @@ body{
     z-index: 3;
     padding: 0;
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 1080px){
     #mysidebar{
         position: relative;
         background: #fff;
         width: 100%;
-        text-align: center;
+        text-align: center
     }
     #links-topo{
         padding-top: 0;
-        text-align: center;
+        text-align: center
     }
     .nav-button{
-        display: inline-flex;
+        display: inline-block;
         height:30px;
         width: 32%;
-        margin:0px;
+        margin:auto;
         line-height: 30px;
         text-decoration:none;
     }
@@ -52,14 +53,16 @@ body{
         overflow:hidden;
     }
     #content-post{
+        display: flex
+        flex-wrap: wrap;
+        justify-content: center;
         background-color: #f1f1f1;
-        padding-left: 9%;
-        margin-right: 0px;
     }
     #about{
         background:#757575;
         text-align: center;
-        padding: 15px 0 40px 0;
+        padding: 15px 0 40px 0
+        margin:0;
         color:#fff;
     }
     #about-esq{
@@ -77,7 +80,7 @@ body{
         padding: 40px 0px 0px 0px;
         background: #f1f1f1;
     }
-    
+
     #video-post{
         text-align: center;
         border: 1px dashed #bebebe;
@@ -105,13 +108,13 @@ body{
         font-size: 10px;
         margin-top: 50px;
     }
-    
+
     #creditos-post{
         font-size: 10px;
         margin-top: 10px;
         float: left;
     }
-    
+
     .iconredes-post{
         width: 50px;
         height: 50px;
@@ -123,7 +126,7 @@ body{
     }
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1080px){
     #mysidebar {
         position: relative;
         background: #fff;
@@ -179,15 +182,27 @@ body{
         padding-top: 15px;
     }
     #post_details{
-        padding: 40px 80px 0px 50px;
+        padding: 40px 0px 0px 5%;
         background: #f1f1f1;
-        min-height: 658px;
     }
-    
+    #video-content{
+        padding-left: 5%;
+        float: right;
+        text-align: left;
+    }
+    #letra-content{
+        float: left;
+        text-align: center;
+    }
+    #creditos-content{
+        float: right;
+        padding-left: 5%;
+    }
+
     #video-post{
-        padding: 5px;
         border: 1px dashed #bebebe;
         border-radius: 10%;
+        padding: 1%;
     }
     #title-post{
         font-weight: 300;
@@ -198,37 +213,35 @@ body{
     #letra-post{
         line-height: 1.3;
         font-size: 13px;
-        padding-right: 100px
     }
     #cifra-post{
         line-height: 1.3;
         font-size: 10px;
-        padding-right: 100px;
         margin-bottom: 20px;
     }
     #autoria-post{
         font-size: 10px;
         margin-top: 50px;
+        text-align: center;
+        opacity: 0.8;
     }
-    
+
     #creditos-post{
         font-size: 10px;
         margin-top: 10px;
-        float: left;
     }
-    
+
     .iconredes-post{
         width: 50px;
         height: 50px;
         padding: 10px;
-        float: right;
         margin-top: 0px;
         filter: contrast(0%);
         opacity: 0.7;
     }
 }
 
-#mysidebar a, h3{    
+#mysidebar a, h3{
     font-weight: 400;
     color: #757575
 }
@@ -283,8 +296,6 @@ body{
     margin-top: 25px;
 }
 
-
-
 #paginator{
     background: #f1f1f1;
     text-align: center;
@@ -293,7 +304,6 @@ body{
     font-weight: bolder;
     font-size: 15px;
 }
-
 
 .iconredes-post:hover{
     filter: contrast(100%);

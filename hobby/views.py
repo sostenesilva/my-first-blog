@@ -6,7 +6,7 @@ from django.core.paginator import Paginator
 
 def pagPrincipal(request):
     posts_list = Post.objects.filter(published_date__lte=timezone.now()).order_by('published_date')
-    paginator = Paginator(posts_list, 9)
+    paginator = Paginator(posts_list, 6)
     page = request.GET.get('page')
     posts = paginator.get_page(page)
     return render(request,'principal/pagPrincipal.html',{'posts': posts})
