@@ -23,7 +23,7 @@ body{
     z-index: 3;
     padding: 0;
 }
-@media screen and (max-width: 576px){
+@media screen and (max-width: 700px){
     #mysidebar{
         position: relative;
         background: #fff;
@@ -44,7 +44,7 @@ body{
     }
 }
 
-@media screen and (min-width: 576px){
+@media screen and (min-width: 700px){
     #mysidebar {
         position: relative;
         background: #fff;
