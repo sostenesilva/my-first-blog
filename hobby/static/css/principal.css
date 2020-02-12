@@ -85,6 +85,8 @@ body{
         border: 1px dashed #bebebe;
         border-radius: 10%;
         padding: 1%;
+        width: 80%;
+        height: 400px;
     }
     #title-post{
         text-align: center;
