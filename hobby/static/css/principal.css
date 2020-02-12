@@ -25,6 +25,9 @@ body{
     padding: 0;
 }
 @media screen and (max-width: 1080px){
+    body{
+        height: 100%;
+    }
     #mysidebar{
         position: relative;
         background: #fff;
