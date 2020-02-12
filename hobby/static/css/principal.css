@@ -81,7 +81,7 @@ body{
         background: #f1f1f1;
     }
     #video-content{
-        width: 100%;
+
     }
     #video-post{
         text-align: center;
@@ -189,13 +189,13 @@ body{
         background: #f1f1f1;
     }
     #video-content{
-        padding-left: 5%;
         float: right;
         text-align: left;
     }
     #letra-content{
         float: left;
         text-align: center;
+        padding: 0%;
     }
     #creditos-content{
         float: right;

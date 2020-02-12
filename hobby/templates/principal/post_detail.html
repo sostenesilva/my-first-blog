@@ -4,14 +4,14 @@
 <div class="row" id="post_details">
     <h3 id="title-post">{{ post.title }}</h3>
     <div class="row">
-        <div class="col-12 col-sm-6" id="video-content">
+        <div class="col-12 col-lg-6" id="video-content">
             <iframe id="video-post" width="400" height="225" src="https://www.youtube.com/embed/{{ post.video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-12 col-sm-6" id="letra-content">
+        <div class="col-12 col-lg-6" id="letra-content">
             <p id="cifra-post">{{ post.cifra|linebreaksbr }}</p>
             <p id="letra-post">{{ post.letra|linebreaksbr }}</p>
         </div>
-        <div class="col-12 col-sm-6 col-dm-6" id="creditos-content">
+        <div class="col-12 col-lg-6" id="creditos-content">
             <p id="creditos-post">{{ post.creditos|linebreaksbr }}</p>
             <img class="iconredes-post" src="/static/iconwhats.png" alt="whatsapp"><img class="iconredes-post" src="/static/iconinsta.png" alt="instagram"><img class="iconredes-post" src="/static/iconface.png" alt="facebook">
         </div>
