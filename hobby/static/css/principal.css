@@ -80,11 +80,14 @@ body{
         padding: 40px 0px 0px 0px;
         background: #f1f1f1;
     }
-
+    #video-content{
+        width: 100%;
+    }
     #video-post{
         text-align: center;
         border: 1px dashed #bebebe;
         border-radius: 10%;
+        padding: 1%;
     }
     #title-post{
         text-align: center;
