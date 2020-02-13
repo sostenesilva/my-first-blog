@@ -158,6 +158,8 @@ body{
         opacity: 0.7;
         margin: 0.5%;
         overflow:hidden;
+        animation-name: post-home;
+        animation-duration: 3s;
     }
     #content-post{
         text-align: center;
@@ -311,4 +313,19 @@ body{
 .iconredes-post:hover{
     filter: contrast(100%);
     opacity: 1;
+}
+
+@keyframes post-home{
+    0% {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+    75% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 0.7;
+    }
 }
