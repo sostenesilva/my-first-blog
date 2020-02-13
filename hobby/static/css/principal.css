@@ -85,7 +85,7 @@ body{
         text-align: center;
         padding: 40px 0px 0px 0px;
         background: #f1f1f1;
-        animation-name: post-details;
+        animation-name: post-details-cel;
         animation-duration: 3s;
         animation-timing-function: ease-out;
     }
@@ -348,6 +348,16 @@ body{
 @keyframes post-details{
     0% {
         transform: translateX(30%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes post-details-cel{
+    0% {
+        transform: translateX(-30%);
         opacity: 0;
     }
     100% {
